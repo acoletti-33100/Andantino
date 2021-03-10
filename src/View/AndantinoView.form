@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.AndantinoView">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="7" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="12" y="15" width="987" height="895"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="f059" binding="menuPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="0" column="0" row-span="7" col-span="4" vsize-policy="3" hsize-policy="0" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <hspacer id="f9263">
+            <constraints/>
+          </hspacer>
+          <component id="193fc" class="javax.swing.JLabel" binding="Player1Label">
+            <constraints/>
+            <properties>
+              <text value="Player1"/>
+            </properties>
+          </component>
+          <component id="71001" class="javax.swing.JLabel" binding="Player1Img">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="ddaea" class="javax.swing.JComboBox" binding="player1cmb">
+            <constraints/>
+            <properties>
+              <model/>
+              <toolTipText value="choose player1 (white)"/>
+            </properties>
+          </component>
+          <component id="1ff89" class="javax.swing.JLabel" binding="Player2Label">
+            <constraints/>
+            <properties>
+              <text value="Player2"/>
+            </properties>
+          </component>
+          <component id="995b4" class="javax.swing.JLabel" binding="Player2Img">
+            <constraints/>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="1efb7" class="javax.swing.JComboBox" binding="player2cmb">
+            <constraints/>
+            <properties>
+              <model/>
+              <toolTipText value="choose player2 (black) "/>
+            </properties>
+          </component>
+          <component id="ed484" class="javax.swing.JButton" binding="startGame">
+            <constraints/>
+            <properties>
+              <text value="Start"/>
+              <toolTipText value="Start playing the game"/>
+            </properties>
+          </component>
+          <component id="2df72" class="javax.swing.JButton" binding="undo">
+            <constraints/>
+            <properties>
+              <text value="Undo"/>
+              <toolTipText value="Undo last played move"/>
+            </properties>
+          </component>
+          <component id="c850b" class="javax.swing.JButton" binding="restartButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <text value="Restart"/>
+              <toolTipText value="Restart the game"/>
+            </properties>
+          </component>
+          <component id="e4f12" class="javax.swing.JButton" binding="stopRestartBotsGame">
+            <constraints/>
+            <properties>
+              <text value=""/>
+              <toolTipText value="stop bot, current game"/>
+            </properties>
+          </component>
+          <hspacer id="2d0d4">
+            <constraints/>
+          </hspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
